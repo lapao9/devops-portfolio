@@ -89,7 +89,7 @@ Once all projects are complete, the full architecture will look like this:
 
 ## 📂 How to explore this portfolio
 
-**If you're a recruiter with 2 minutes:**
+**If you have 2 minutes:**
 → Head to [Project 01](https://github.com/lapao9/devops-foundations) and read the README
 
 **If you want to see CI/CD in action:**
@@ -110,6 +110,6 @@ Phase 1 ✅  Phase 2 ✅  Phase 3 🔄  Phase 4 ⏳  Phase 5 ⏳
 
 <div align="center">
 
-**Built as a DevOps engineering portfolio — 2024**
+**Built as a DevOps engineering portfolio — 2025**
 
 </div>
