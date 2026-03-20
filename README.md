@@ -2,8 +2,8 @@
 
 # 🚀 DevOps Engineering Portfolio
 
-**Uma aplicação real construída do zero até produção**
-*Task Manager API — da linha de comando ao Kubernetes na cloud*
+**One real application built from scratch to production**
+*Task Manager API — from the command line to Kubernetes on the cloud*
 
 [![Foundations](https://img.shields.io/badge/01-Foundations-00ff9d?style=for-the-badge)](https://github.com/lapao9/devops-foundations)
 [![CI/CD](https://img.shields.io/badge/02-CI/CD-00d4ff?style=for-the-badge)](https://github.com/lapao9/devops-cicd)
@@ -15,32 +15,32 @@
 
 ---
 
-## 📖 Sobre este Portfolio
+## 📖 About this Portfolio
 
-Este portfolio demonstra a construção de uma **API de gestão de tarefas** desde o código inicial até infraestrutura completa na cloud — cada fase adiciona uma camada de maturidade DevOps.
+This portfolio demonstrates building a **task management REST API** from initial code to full cloud infrastructure — each phase adds a new layer of DevOps maturity.
 
-A mesma aplicação evolui ao longo de 5 projetos:
+The same application evolves across 5 projects:
 ```
-Código local  →  Pipeline CI/CD  →  Containers  →  Cloud  →  Monitorização
+Local code  →  CI/CD Pipeline  →  Containers  →  Cloud  →  Monitoring
 ```
 
 ---
 
-## 🗺️ Roadmap do Projeto
+## 🗺️ Project Roadmap
 
-| # | Projeto | Stack | Status |
+| # | Project | Stack | Status |
 |---|---------|-------|--------|
-| 01 | [**Foundations**](https://github.com/lapao9/devops-foundations) | Python · FastAPI · PostgreSQL · Docker | ✅ Completo |
-| 02 | [**CI/CD Pipeline**](https://github.com/lapao9/devops-cicd) | GitHub Actions · GHCR · pytest | ✅ Completo |
-| 03 | [**Containers**](https://github.com/lapao9/devops-containers) | Docker · Kubernetes · Helm | 🔄 Em progresso |
-| 04 | [**Infrastructure**](https://github.com/lapao9/devops-infrastructure) | AWS · Terraform · Ansible | ⏳ Planeado |
-| 05 | [**Observability**](https://github.com/lapao9/devops-observability) | Prometheus · Grafana · ELK | ⏳ Planeado |
+| 01 | [**Foundations**](https://github.com/lapao9/devops-foundations) | Python · FastAPI · PostgreSQL · Docker | ✅ Complete |
+| 02 | [**CI/CD Pipeline**](https://github.com/lapao9/devops-cicd) | GitHub Actions · GHCR · pytest | ✅ Complete |
+| 03 | [**Containers**](https://github.com/lapao9/devops-containers) | Docker · Kubernetes · Helm | 🔄 In progress |
+| 04 | [**Infrastructure**](https://github.com/lapao9/devops-infrastructure) | AWS · Terraform · Ansible | ⏳ Planned |
+| 05 | [**Observability**](https://github.com/lapao9/devops-observability) | Prometheus · Grafana · ELK | ⏳ Planned |
 
 ---
 
-## 🏗️ Arquitetura Final
+## 🏗️ Final Architecture
 
-Quando todos os projetos estiverem completos, a arquitetura será:
+Once all projects are complete, the full architecture will look like this:
 ```
                         ┌─────────────────────────────────────┐
                         │           AWS Cloud (Terraform)      │
@@ -53,7 +53,7 @@ Quando todos os projetos estiverem completos, a arquitetura será:
               ▼         │   │  │  Pod 1   │ │  Pod 2   │  │   │
     ┌─────────────────┐ │   │  └────┬─────┘ └────┬─────┘  │   │
     │  GitHub Actions │ │   │       └──────┬──────┘        │   │
-    │  CI → testes    │ │   │         ┌────▼─────┐         │   │
+    │  CI → tests     │ │   │         ┌────▼─────┐         │   │
     │  CD → deploy    │─┼───┼────────▶│ PostgreSQL│        │   │
     └─────────────────┘ │   │         │   (RDS)   │        │   │
               │         │   │         └───────────┘        │   │
@@ -67,12 +67,12 @@ Quando todos os projetos estiverem completos, a arquitetura será:
 
 ---
 
-## 🛠️ Stack Tecnológico Completo
+## 🛠️ Full Tech Stack
 
-**Linguagens & Frameworks**
+**Languages & Frameworks**
 - Python 3.12 · FastAPI · SQLAlchemy · Pydantic · pytest
 
-**Containers & Orquestração**
+**Containers & Orchestration**
 - Docker · Docker Compose · Kubernetes · Helm
 
 **CI/CD**
@@ -82,34 +82,34 @@ Quando todos os projetos estiverem completos, a arquitetura será:
 - AWS (EC2 · RDS · EKS · S3 · VPC · IAM)
 - Terraform · Ansible
 
-**Monitorização**
+**Monitoring**
 - Prometheus · Grafana · Elasticsearch · Logstash · Kibana
 
 ---
 
-## 📂 Como explorar este portfolio
+## 📂 How to explore this portfolio
 
-**Se és recrutador e tens 2 minutos:**
-→ Vai ao [Projeto 01](https://github.com/lapao9/devops-foundations) e lê o README
+**If you're a recruiter with 2 minutes:**
+→ Head to [Project 01](https://github.com/lapao9/devops-foundations) and read the README
 
-**Se queres ver CI/CD a funcionar:**
-→ Vai ao [Projeto 02](https://github.com/lapao9/devops-cicd) → separador Actions
+**If you want to see CI/CD in action:**
+→ Head to [Project 02](https://github.com/lapao9/devops-cicd) → Actions tab
 
-**Se queres ver o código:**
-→ Começa pelo [Projeto 01 · app/routers/tasks.py](https://github.com/lapao9/devops-foundations/blob/main/app/routers/tasks.py)
+**If you want to dive into the code:**
+→ Start at [Project 01 · app/routers/tasks.py](https://github.com/lapao9/devops-foundations/blob/main/app/routers/tasks.py)
 
 ---
 
-## 📈 Progresso
+## 📈 Progress
 ```
-[██████████░░░░░░░░░░] 40% completo
-Fase 1 ✅  Fase 2 ✅  Fase 3 🔄  Fase 4 ⏳  Fase 5 ⏳
+[██████████░░░░░░░░░░] 40% complete
+Phase 1 ✅  Phase 2 ✅  Phase 3 🔄  Phase 4 ⏳  Phase 5 ⏳
 ```
 
 ---
 
 <div align="center">
 
-**Construído como portfolio DevOps — 2024**
+**Built as a DevOps engineering portfolio — 2024**
 
 </div>
