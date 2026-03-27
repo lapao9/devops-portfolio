@@ -32,8 +32,8 @@ Local code  →  CI/CD Pipeline  →  Containers  →  Cloud  →  Monitoring
 |---|---------|-------|--------|
 | 01 | [**Foundations**](https://github.com/lapao9/devops-foundations) | Python · FastAPI · PostgreSQL · Docker | ✅ Complete |
 | 02 | [**CI/CD Pipeline**](https://github.com/lapao9/devops-cicd) | GitHub Actions · GHCR · pytest | ✅ Complete |
-| 03 | [**Containers**](https://github.com/lapao9/devops-containers) | Docker · Kubernetes · Helm | 🔄 In progress |
-| 04 | [**Infrastructure**](https://github.com/lapao9/devops-infrastructure) | AWS · Terraform · Ansible | ⏳ Planned |
+| 03 | [**Containers**](https://github.com/lapao9/devops-containers) | Docker · Kubernetes · Helm | ✅ Complete |
+| 04 | [**Infrastructure**](https://github.com/lapao9/devops-infrastructure) | AWS · Terraform · Ansible | 🔄 In progress |
 | 05 | [**Observability**](https://github.com/lapao9/devops-observability) | Prometheus · Grafana · ELK | ⏳ Planned |
 
 ---
